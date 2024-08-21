@@ -1,11 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barn House Land-Page</title>
+
+    <!-- google font link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind.css and daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- style.css -->
+    <style>
+        .font-manrope {
+  font-family: "Manrope", sans-serif;
+}
+    </style>
+
+
+    <!-- script tag/ custom tailwind css -->
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'pg-color': '#737373',
+                'btn-bg-color': '#ABEF5F',
+                'head-color': '#212121',
+                'card1-bg-color': '#E7C1D3',
+                'card2-bg-color': '#EFDA6E',
+                'card3-bg-color': '#A4DAC3',
+                'card4-bg-color': '#77AAEA',
+                'btn-2-bg-color': '#1C1C1C',
+                'footer-bg-color': '#77AAEA',
+                
+              }
+            }
+          }
+        }
+      </script>
+
+      
 </head>
-<body>
+<body class=".font-manrope">
     
+    <!-- Header container -->
+     <header>
+
+        <!-- navigation bar -->
+         <nav>
+
+            <!-- daisyUI navbar -->
+           
+             <div class="lg:w-[90%] md:w-[90%] md:mx-auto ">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                     
+                      <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right-long h-7 -rotate-45 w-7 text-[1rem] border-transparent bg-btn-bg-color rounded-full flex items-center justify-center"></i> <p class="text-3xl font-bold text-[#212121]">Rinterio</p></a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-[#494949] font-bold">Home</a></li>
+                        <li><a class="text-pg-color">Services</a></li>
+                        <li><a class="text-pg-color">Portfolio</a></li>
+                        <li><a class="text-pg-color">Blogs</a></li>
+                        <li><a class="text-pg-color">Contact Us</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <i class="fa-solid fa-magnifying-glass text-gray-500 bg-white rounded-full shadow-xl w-10 h-10 flex items-center justify-center mr-4"></i>
+                        <i class="fa-solid mr-4 fa-cart-shopping  text-gray-500 bg-white rounded-full shadow-xl w-10 h-10 flex items-center justify-center"></i>
+                      <a class="btn rounded-full bg-btn-bg-color"><p class="mr-2 text-xl font-bold">Book Consult</p> </i> <i class="fa-solid fa-arrow-right-long h-7 -rotate-45 w-7 text-[1rem] border-transparent bg-btn-2-bg-color text-gray-300 rounded-full flex items-center justify-center"></i></a>
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars text-gray-500 bg-white rounded-full shadow-xl w-10 h-10 flex items-center justify-center"></i>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          <li><a>Home</a></li>
+                          <li><a class="text-pg-color">Services</a></li>
+                          <li><a class="text-pg-color">Portfolio</a></li>
+                          <li><a class="text-pg-color">Blogs</a></li>
+                          <li><a class="text-pg-color">Contact Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div> 
+             </div>
+
+         </nav>
+
+         <!-- banner section -->
+
+         <div>
+
+            <!-- image content  -->
+             <div>
+
+             </div>
+
+             <!-- text content -->
+              <div>
+                <div class="hero bg-base-200 min-h-screen">
+                    <div class="hero-content text-center">
+                      <div class="max-w-md">
+                        <h1 class="text-5xl font-bold">Hello there</h1>
+                        <p class="py-6">
+                          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                          quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+         </div>
+
+     </header>
 </body>
 </html>
