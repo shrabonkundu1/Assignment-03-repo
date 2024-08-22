@@ -57,7 +57,7 @@
 <body class=".font-manrope">
     
     <!-- Header container -->
-     <header class="bg-gradient-to-b from-[#f4f4f4] to-[#fdfdfd] lg:mb-32 md:mb-20 ">
+     <header class="bg-gradient-to-b from-[#f4f4f4] to-[#fdfdfd] lg:mb-24 md:mb-16 mb-8">
 
         <!-- navigation bar -->
          <nav class="mb-8 md:mb-12 lg:mb-12 bg-[#f4f4f4]">
@@ -80,8 +80,8 @@
                       </ul>
                     </div>
                     <div class="navbar-end">
-                        <i class="fa-solid fa-magnifying-glass text-gray-500 bg-white rounded-full shadow-xl w-10 h-10 flex items-center justify-center mr-4 hidden md:flex cursor-pointer"></i>
-                        <i class="fa-solid mr-4 fa-cart-shopping  text-gray-500 bg-white rounded-full shadow-xl w-10 h-10 flex items-center justify-center hidden md:flex cursor-pointer"></i>
+                        <i class="fa-solid fa-magnifying-glass text-gray-500 bg-white rounded-full shadow-xl w-10 h-10 items-center justify-center mr-4 hidden md:flex cursor-pointer"></i>
+                        <i class="fa-solid mr-4 fa-cart-shopping  text-gray-500 bg-white rounded-full shadow-xl w-10 h-10 items-center justify-center hidden md:flex cursor-pointer"></i>
                       <a class="btn rounded-full bg-btn-bg-color hidden md:flex"><p class="mr-2 text-xl font-bold hidden md:flex">Book Consult</p> </i> <i class="fa-solid fa-arrow-right-long h-7 -rotate-45 w-7 text-[1rem] border-transparent bg-btn-2-bg-color text-gray-300 rounded-full flex items-center justify-center"></i></a>
                       <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -122,15 +122,21 @@
 
      <!-- main start  -->
 
-     <main class=" bg-[#f4f4f4] ">
+     <main class=" bg-[#f4f4f4]">
 
         <!-- Residential House -->
 
-        <div class="lg:w-[85%] md:w-[90%] md:mx-auto w-[90%] mx-auto my-24 ">
+        <div class="lg:w-[85%] md:w-[90%] md:mx-auto w-[90%] mx-auto relative ">
 
             <!-- copy daisyUI hero section -->
 
-                <div class="flex gap-10 justify-center items-center flex-col-reverse text-center lg:text-left lg:flex-row-reverse py-24">
+            <!-- arrow button -->
+
+            <div class="hidden lg:flex">
+              <img class="absolute top-12 -left-14" src="/assets/Vector.png" alt="">
+            </div>
+
+                <div class="flex gap-10 justify-center items-center flex-col-reverse text-center lg:text-left lg:flex-row-reverse py-10 md:py-20 lg:py-24">
                   
                     <!-- image content -->
 
@@ -195,9 +201,8 @@
 
         <!-- option part -->
 
-        <div class="">
             <!-- main container -->
-            <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 justify-between md:gap-20 items-center py-14 px-28 bg-white shadow-lg rounded-2xl mb-8 md:mb-16 lg:mb-24">
+            <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 justify-between md:gap-20 items-center py-14 px-28 bg-white shadow-lg rounded-2xl mb-10 md:mb-16 lg:mb-24">
                 <!-- review 1 -->
                 <div class="flex mb-14 md:mb-0 flex-col justify-center space-y-2 items-center">
                   <div>
@@ -230,8 +235,100 @@
                     <h1 class="text-5xl font-bold text-[#494949]">307+</h1>
                     <p class="text-[#737373]">Staff Members</p>
                 </div>
-            </div>
+
         </div>
+
+        
+
+
+                <!-- Working process section -->
+
+                <div class="lg:pb-24 md:pb-20 pb-10">
+
+                  <!-- title section -->
+                   <div class="flex flex-col justify-center items-center text-center lg:w-4/6 lg:mx-auto">
+                    <button class="flex mx-auto lg:mx-0 py-1 px-6 bg-white rounded-full mb-5">
+                      <i class="fa-solid fa-arrow-right-long h-7 w-7 text-[1rem] border-transparent rounded-full flex items-center justify-center"></i><p class="font-medium text-[#494949]">How we works</p>
+                     </button>
+                      <h1 class="text-[#212121] lg:w-4/5 text-[24px] md:text-[32px] lg:text-[40px] w-[80%] md:w-full mx-auto lg:mx-0 font-extrabold">Our Works Process</h1>
+                      <p class="py-6 font-medium md:w-10/12 mx-auto lg:mx-0 text-[#494949] ">
+                          The barn house captivates with its blend of rustic charm and 
+                          modern sophistication, featuring weathered wood, sleek metal accents.
+                      </p>
+
+                   </div>
+
+                   <!-- card seection -->
+
+                   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-6">
+
+                    
+                  <!-- card-1 -->
+
+                   <div>
+                    <div class="card  shadow-sm bg-card1-bg-color">
+                    
+                      <div class="card-body">
+                        <div>
+                          <img src="./assets/concept.png" alt="">
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold text-[#1c1c1c]">Concept</h2>
+                        <p >The barn house captivates with its blend of rustic charm and modern.</p>
+                      </div>
+                    </div>
+                   </div>
+
+
+                   <!-- card-2 -->
+
+                   <div>
+                    <div class="card  shadow-sm bg-card2-bg-color">
+                    
+                      <div class="card-body">
+                        <div>
+                          <img src="./assets/flow-chart.png" alt="">
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold text-[#1c1c1c]">Design Process</h2>
+                        <p >The barn house captivates with its blend of rustic charm and modern.</p>
+                      </div>
+                    </div>
+                   </div>
+
+
+                   <!-- card-3 -->
+
+                   <div>
+                    <div class="card  shadow-sm bg-card3-bg-color">
+                    
+                      <div class="card-body">
+                        <div>
+                          <img src="./assets/vision.png" alt="">
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold text-[#1c1c1c]">Supervision</h2>
+                        <p >The barn house captivates with its blend of rustic charm and modern.</p>
+                      </div>
+                    </div>
+                   </div>
+
+
+                   <!-- card-4 -->
+
+                   <div>
+                    <div class="card  shadow-sm bg-card4-bg-color">
+                    
+                      <div class="card-body">
+                        <div>
+                          <img src="./assets/budget-planning.png" alt="">
+                        </div>
+                        <h2 class="card-title text-xl font-extrabold text-[#1c1c1c]">Budget Planning</h2>
+                        <p >The barn house captivates with its blend of rustic charm and modern.</p>
+                      </div>
+                    </div>
+                   </div>
+
+                   </div>
+
+                </div>
      </main>
 </body>
 </html>
