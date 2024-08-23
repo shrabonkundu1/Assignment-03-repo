@@ -33,7 +33,7 @@
     <script>
         tailwind.config = {
           theme: {
-            extend: {
+            extend: { 
               colors: {
                 clifford: '#da373d',
                 'pg-color': '#737373',
@@ -68,7 +68,7 @@
                 <div class="navbar ">
                     <div class="navbar-start">
                      
-                      <a class="btn text-xl"> <p class="md:text-3xl text-[26px] font-bold text-[#212121]">Rinterio</p></a>
+                      <a class="btn text-xl"> <i class="fa-solid fa-arrow-right-long h-7 -rotate-45 w-7 text-[1rem] border-transparent bg-[#aeef64] text-[#534e4e] rounded-full flex items-center justify-center"></i> <p class="md:text-3xl text-[26px] font-bold text-[#212121]">Rinterio</p></a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                       <ul class="menu menu-horizontal px-1">
@@ -151,8 +151,8 @@
                    <button class="flex mx-auto lg:mx-0 py-1 px-6 bg-white rounded-full mb-5">
                     <i class="fa-solid fa-arrow-right-long h-7 w-7 text-[1rem] border-transparent rounded-full flex items-center justify-center"></i><p class="font-medium">About Us</p>
                    </button>
-                    <h1 class="lg:w-4/5 text-[24px] md:text-[32px] lg:text-[40px] w-[80%] md:w-full mx-auto lg:mx-0 font-extrabold">We design thoughtful, liveable spaces</h1>
-                    <p class="py-6 font-medium md:w-10/12 mx-auto lg:mx-0">
+                    <h1 class="lg:w-4/5 text-[24px] md:text-[32px] lg:text-[38px] w-[80%] md:w-full mx-auto lg:mx-0 font-extrabold">We design thoughtful, liveable spaces</h1>
+                    <p class="py-6 font-medium  mx-auto lg:mx-0">
                         The barn house captivates with its blend of rustic charm and 
                         modern sophistication, featuring weathered wood, sleek metal accents.
                     </p>
@@ -456,10 +456,10 @@
 
         <!-- card1 -->
           <div class="mb-3 md:mb-0">
-            <div class=" shadow-lg rounded-xl md:flex lg:grid md:items-center md:justify-center md:gap-5 bg-white md:p-7 p-5 lg:p-10">
+            <div class=" shadow-lg rounded-xl md:flex lg:grid md:items-center md:justify-center md:gap-5 bg-white md:p-6 p-4 lg:p-8">
 
               <div class="mb-4 md:w-2/4  lg:w-[100%]">
-                <img class="md:h-60 lg:h-full" src="./assets/article1.png" alt="">
+                <img class="w-full md:h-60" src="./assets/article1.png" alt="">
               </div>
             
               <div class="">
@@ -483,10 +483,10 @@
          <!--  -->
      <!-- card2 -->
      <div class="mb-3 md:mb-0">
-      <div class=" shadow-lg rounded-xl md:flex lg:grid md:items-center md:justify-center md:gap-5 bg-white md:p-7 p-5 lg:p-10">
+      <div class=" shadow-lg rounded-xl md:flex lg:grid md:items-center md:justify-center md:gap-5 bg-white md:p-6 p-4 lg:p-8">
 
         <div class="mb-4 md:w-2/4  lg:w-[100%]">
-          <img src="./assets/article2.png" alt="">
+          <img class="w-full md:h-60" src="./assets/article2.png" alt="">
         </div>
       
         <div class="">
@@ -510,10 +510,10 @@
    <!--  -->
      <!-- card3 -->
      <div class="mb-3 md:mb-0">
-      <div class=" shadow-lg rounded-xl md:flex lg:grid md:items-center md:justify-center md:gap-5 bg-white md:p-7 p-5 lg:p-10">
+      <div class=" shadow-lg rounded-xl md:flex lg:grid md:items-center md:justify-center md:gap-5 bg-white md:p-6 p-4 lg:p-8">
 
         <div class="mb-4 md:w-2/4  lg:w-[100%]">
-          <img src="./assets/article3.png" alt="">
+          <img class="w-full md:h-60" src="./assets/article3.png" alt="">
         </div>
       
         <div class="">
@@ -534,22 +534,91 @@
         </div>
       </div>
      </div>
-   <!--  -->
-         <!-- card2 -->
-          
-         <!--  -->
+<!--  -->
 
-         <!-- card3 -->
-
-         <!--  -->
        </div>
-
-
 
         </div>
 
       </div>
       <!--  -->
+
+      </div>
+<!--  -->
+
+      <!-- Discuss section -->
+
+      <div class="bg-[url('/assets/bg.jpg')] bg-no-repeat bg-cover mt-1">
+
+        <div class="lg:w-[80%] md:w-[80%] md:mx-auto w-[90%] mx-auto  lg:py-24 md:py-20 py-9 ">
+          <div>
+  
+            <!-- text content -->
+             <div>
+              <div class="flex flex-col justify-center items-center text-center lg:w-4/6 lg:mx-auto">
+                <button class="flex mx-auto lg:mx-0 py-1 px-6 bg-[#d4f6ae] rounded-full mb-5">
+                  <i class="fa-solid fa-arrow-right-long h-7 w-7 text-[1rem] border-transparent rounded-full flex items-center justify-center"></i><p class="font-medium text-[#494949]">Let's Connect</p>
+                 </button>
+                  <h1 class="text-[#212121] text-[24px] md:text-[32px] lg:text-[40px] font-extrabold">Let's Discuss Next Project</h1>
+                  <p class="py-6 font-medium mx-auto lg:mx-auto text-[#494949]  ">
+                      The barn house captivates with its blend of rustic charm and 
+                      modern sophistication, featuring weathered wood, sleek metal accents.
+                  </p>
+               </div>
+               <!--  -->
+  
+               <!-- inputbox-container -->
+                <div class="lg:w-[55%] md:w-[70%] md:mx-auto w-[90%] mx-auto  space-y-5 md:space-y-0 md:gap-6 md:grid md:grid-cols-2 ">
+  
+                  <!-- inputbox1 -->
+                <div>
+                    <!-- md -->
+                    <input
+                    type="text"
+                    placeholder="First name*"
+                    class="input input-bordered input-md w-full  rounded-full bg-white" />
+                </div>
+                <!--  -->
+               <!-- inputbox2 -->
+                <div>
+                    <!-- md -->
+                    <input
+                    type="text"
+                    placeholder="Last name*"
+                    class="input input-bordered input-md w-full  rounded-full bg-white" />
+                </div>
+                <!--  -->
+               <!-- inputbox3 -->
+                <div class="Phone Number">
+                    <!-- md -->
+                    <input
+                    type="text"
+                    placeholder="Phone Number*"
+                    class="input input-bordered input-md w-full  rounded-full bg-white" />
+                </div>
+                <!--  -->
+               <!-- inputbox4 -->
+                <div>
+                    <!-- md -->
+                    <input
+                    type="text"
+                    placeholder="Email Number*"
+                    class="input input-bordered input-md w-full  rounded-full bg-white" />
+                </div>
+                <!--  -->
+                </div>
+  
+              <!-- card7 -->
+              <textarea
+              placeholder="Write your message here"
+              class="textarea textarea-bordered textarea-lg  h-52 rounded-3xl my-7 lg:w-[55%] md:w-[70%] md:mx-auto w-[90%] mx-auto flex items-center"></textarea>
+                
+              <!-- btn-7 -->
+              <a class="btn rounded-full bg-btn-bg-color hidden md:flex lg:w-[55%] md:w-[70%] md:mx-auto w-[90%] mx-auto"><p class="mr-2 text-xl font-bold hidden md:flex">Send Mail</p> </i> <i class="fa-solid fa-arrow-right-long h-7 -rotate-45 w-7 text-[1rem] border-transparent bg-btn-2-bg-color text-gray-300 rounded-full flex items-center justify-center"></i></a>
+
+             </div>
+          </div>
+        </div>
 
       </div>
 </body>
